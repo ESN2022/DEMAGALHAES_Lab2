@@ -32,15 +32,19 @@ _J'ai ajouté un boutton qui ne sera pas utilisé par la suite malheureusement p
 Passons désormais à la description du design VHDL :
 ### 7 Segments VHDL
 Il faut avant de définir l'architecture global définir le fonctionnement du 7 segments en VHDL. 
+
 Pour chaque code en entrée on aura en sortie un code spécifique pour le 7 segment.
+
 ![image](https://user-images.githubusercontent.com/77203492/211851467-ecd0cba6-2166-4d96-b42f-9df4df7b1f1c.png)
 
 ### Architecture global
 Ensuite il ne reste plus qu'à importer chaque composant dans notre description hardware du système et de réaliser le pin assignement :
+
 ![image](https://user-images.githubusercontent.com/77203492/211851892-8c610f76-b532-4c1f-9e45-b9f7ade20043.png)
 
 ## Pin Assignement
 Sur les 2 images qui suivent vous retrouverez, l'association entre les entrées sorties et les pin physique du FPGA.
+
 ![image](https://user-images.githubusercontent.com/77203492/211852135-42ab6ba6-badb-43de-99ad-7ee14a01df7d.png)
 
 # Software Description
@@ -57,6 +61,7 @@ Et on décide de démarrer le compteur seulement au bout de 7secondes, que l'on 
 
 # Résultat 
 Voici une courte vidéo démontrant le principe de fonctionnement :
+
 https://user-images.githubusercontent.com/77203492/211807035-a3131f97-3379-4ab3-bd41-5f9093403c06.mp4
 
 
