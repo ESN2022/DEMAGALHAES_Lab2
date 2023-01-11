@@ -23,6 +23,7 @@ architecture arch of bin_7seg is
 		-- 6 = "0111 1101"
 		-- 7 = "0100 0111"
 		-- 8 = "0111 1111"
+		-- 9 = "0110 0111"
 		begin
 			case(s) is
 				when "0000" => sortie <= not("00111111");
@@ -34,6 +35,7 @@ architecture arch of bin_7seg is
 				when "0110" => sortie <= not("01111101");
 				when "0111" => sortie <= not("01000111");
 				when "1000" => sortie <= not("01111111");
+				when "1001" => sortie <= not("01100111");
 				when others => sortie <= "00000000";
 			end case;
 		end process;

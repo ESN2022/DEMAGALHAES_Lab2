@@ -10,7 +10,8 @@ entity lab2 is
 		reset_n : in std_logic :='0';
 		seg : out std_logic_vector(7 downto 0);
 		seg2 : out std_logic_vector(7 downto 0);
-		seg3 : out std_logic_vector(7 downto 0));
+		seg3 : out std_logic_vector(7 downto 0);
+		button : in std_logic);
 		
 end entity lab2;
 
@@ -22,7 +23,8 @@ architecture rit of lab2 is
 						reset_reset_n                  : in  std_logic                    := 'X'; -- reset_n
 						seg_external_connection_export : out std_logic_vector(7 downto 0);         -- export
 						seg2_external_connection_export : out std_logic_vector(7 downto 0);        -- export
-						seg3_external_connection_export : out std_logic_vector(7 downto 0)         -- export
+						seg3_external_connection_export : out std_logic_vector(7 downto 0);         -- export
+						button_external_connection_export : in  std_logic
 				  );
 		end component lab2_sys;
 
@@ -45,7 +47,8 @@ architecture rit of lab2 is
 				reset_reset_n                  => reset_n,   -- reset.reset_n
 				seg_external_connection_export => entreebin,-- seg_external_connection.export
 				seg2_external_connection_export => entreebin2,        -- export
-				seg3_external_connection_export => entreebin3
+				seg3_external_connection_export => entreebin3,
+				button_external_connection_export => button
 		  );
 			  
 		u1 : component bin_7seg

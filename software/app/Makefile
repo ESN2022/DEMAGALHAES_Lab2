@@ -142,7 +142,7 @@ ACDS_VERSION := 18.1
 ELF := main.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += compteur_simple.c
+C_SRCS += compteur_final.c
 CXX_SRCS :=
 ASM_SRCS :=
 
