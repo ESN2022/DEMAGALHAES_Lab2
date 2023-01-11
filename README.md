@@ -21,6 +21,7 @@ Réalisons maintenant cette architecture sur **Platform Designer** :
 
 Sur l'architecture on relie les 3 segments aux **data_master** du nios pour le canal de donnée.
 On configure le timer comme suit :
+
 ![image](https://user-images.githubusercontent.com/77203492/211850492-edac2dad-f3de-47e0-99fe-5a4d55978765.png)
 
 Pour obtenir notre interruption toutes les secondes, il nous reste à relier la broche **irq** au nios. 
