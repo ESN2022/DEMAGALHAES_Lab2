@@ -62,8 +62,7 @@ Et on décide de démarrer le compteur seulement au bout de 7secondes, que l'on 
 # Résultat 
 Voici une courte vidéo démontrant le principe de fonctionnement :
 
-https://user-images.githubusercontent.com/77203492/211807035-a3131f97-3379-4ab3-bd41-5f9093403c06.mp4
-
+https://user-images.githubusercontent.com/77203492/212548985-9c5ea38b-77c3-47fd-b260-857ac156b073.mp4
 
 # Conclusion 
 Dans ce TP, j'ai bien compris comment créer une interruption avec un timer pour incrémenter une variable de manière périodique, mais aussi comment utiliser une description vhdl pour le 7 segment.
