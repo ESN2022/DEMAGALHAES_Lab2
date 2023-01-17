@@ -42,7 +42,7 @@ Ensuite il ne reste plus qu'à importer chaque composant dans notre description 
 ![image](https://user-images.githubusercontent.com/77203492/211851892-8c610f76-b532-4c1f-9e45-b9f7ade20043.png)
 
 ## Pin Assignement
-Sur les 2 images qui suivent vous retrouverez, l'association entre les entrées sorties et les pin physique du FPGA.
+Sur l'image qui suit vous retrouverez, l'association entre les entrées sorties et les pin physique du FPGA.
 
 ![image](https://user-images.githubusercontent.com/77203492/211852135-42ab6ba6-badb-43de-99ad-7ee14a01df7d.png)
 
